@@ -113,7 +113,7 @@ body{
     padding: 25px 0px 25px 0px;
 }
 .redes_sociais h3{
-    font-weight: 300;
+    font-weight: 400;
     color: white;
     font-size: 12px;
 }
@@ -132,17 +132,20 @@ body{
     padding-left:20px;
     padding-top: 20px;
 }
-.info_geral h3{
+.info_geral a{
+    text-decoration: none;
     font-weight: 300;
     color: white;
     font-size: 12px;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 5px 20px;
     letter-spacing: 1px;
+}
+.info_geral a:hover{
+    border-bottom: 1px solid white;
 }
 #info_geral_border{
     border-left: 1px solid white;
     border-right: 1px solid white;
-    padding: 5px 20px 5px 20px;
-    margin-left:8px;
+    padding: 5px 20px;
 }
