@@ -11,7 +11,7 @@ body{
 .navbar{
     display: flex;
     height: 100px;
-    background: rgba(48, 56, 132, 1);
+    background: #303884;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
@@ -22,11 +22,6 @@ body{
     flex:15%;
     margin-left: 5%;
     text-align: center;
-}
-.logo h1{
-    font-family: "Lobster", sans-serif;
-    color: white;
-    font-size: 34px;
 }
 .menu{
     flex: 45%;
@@ -43,7 +38,7 @@ body{
     padding: 10px 16px;
 }
 .menu a:hover{
-    color:rgba(87, 110, 169, 1);
+    color:#576EA9;
     border-top:2px solid white
 }
 .inicio{
@@ -71,7 +66,7 @@ body{
     padding: 10px;
 }
 .acesso a:hover{
-    color:rgba(87, 110, 169, 1);
+    color:#576EA9;
     border-top:2px solid white;
 }
 #botao{
@@ -85,7 +80,7 @@ body{
 #botao:hover{
     border: none;
     background: white;
-    color:rgba(48, 56, 132, 1);
+    color:#303884;
 }
 .login{
     display: flex;
@@ -93,15 +88,74 @@ body{
     padding:13px 0px 13px 10px;
     border-left: 1px solid white;
 }
-
-.header{
+.fluxo_principal{
     background-color: white;
-    height: 500vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+.frase_efeito{
+    margin-left: 10%;
+    flex: 45%;
+    display: block;
+    padding-bottom: 6%;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    font-size: 15px;
+}
+.slogan{
+    color: #303884;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 50px;
+}
+#slogan_frase{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    font-weight: 250;
+}
+.frase_efeito h2{
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 37px;
+    font-weight: 450;
+    font-style: italic;
+}
+#destaque_frase{
+    background: #576EA9;
+    color: white;
+    font-weight: 350;
+    border-radius: 3px;
+    padding: 2px 10px 2px 10px;
+}
+#botao2{
+    text-decoration: none;
+    background: rgba(87, 110, 169, 1);
+    padding: 15px 20px;
+    color: white;
+    border-radius: 7px;
+}
+#botao2:hover{
+    border: none;
+    background: white;
+    color:#303884;
+    border: 2px solid #303884;
+}
+.img_fundo{
+    text-align: center;
+    margin-right: 5%;
+    flex: 45%;
+    max-width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .rodape{
     height: 150px;
-    background-color: rgba(48, 56, 132, 1);
+    background-color:#303884;
     display:flex;
 }
 .redes_sociais{
