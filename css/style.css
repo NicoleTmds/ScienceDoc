@@ -93,24 +93,56 @@ body{
     padding:13px 0px 13px 10px;
     border-left: 1px solid white;
 }
+
+.header{
+    background-color: white;
+    height: 500vw;
+}
+
 .rodape{
     height: 150px;
     background-color: rgba(48, 56, 132, 1);
     display:flex;
 }
 .redes_sociais{
-    border: 1px solid white;
-    margin-left: 10%;
+    text-align: center;
+    margin-left: 5%;
     flex: 40%;
     display: block;
     justify-content: center;
+    padding: 25px 0px 25px 0px;
+}
+.redes_sociais h3{
+    font-weight: 300;
+    color: white;
+    font-size: 12px;
+}
+.img_rodape{
     align-items: center;
+    text-align: center;
+    letter-spacing: 10px;
+    border-right: 1px solid white;
 }
 .info_geral{
-    border: 1px solid white;
-    margin-right: 10%;
+    margin-right: 5%;
     flex: 40%;
-    display: block;
-    justify-items: center;
+    display: flex;
+    justify-items: right;
     align-items: center;
+    padding-left:20px;
+    padding-top: 20px;
+}
+.info_geral h3{
+    font-weight: 300;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+#info_geral_border{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 5px 20px 5px 20px;
+    margin-left:8px;
 }
