@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    margin:0;
+}
+.navbar{
+    display: flex;
+    height: 100px;
+    background: rgba(48, 56, 132, 1);
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid black;
+    overflow: hidden;
+}
+.logo{
+    flex:15%;
+    margin-left: 5%;
+    text-align: center;
+}
+.logo h1{
+    font-family: "Lobster", sans-serif;
+    color: white;
+    font-size: 34px;
+}
+.menu{
+    flex: 45%;
+    text-align: larger;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    gap: 1vw;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 16px;
+}
+.menu a:hover{
+    color:rgba(87, 110, 169, 1);
+    border-top:2px solid white
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px
+    
+}
+.inicio a{
+    padding: 10px;
+}
+
+.acesso{
+    align-items: center;
+    display: flex;
+    flex:30%;
+    margin-right: 3%;
+    padding: 10px;
+}
+.acesso a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px;
+}
+.acesso a:hover{
+    color:rgba(87, 110, 169, 1);
+    border-top:2px solid white;
+}
+#botao{
+    background: rgba(87, 110, 169, 1);
+    padding: 10px 25px;
+    color: white;
+    border-radius: 7px;
+    margin-right: 7%;
+    margin-left: 10%;
+}
+#botao:hover{
+    border: none;
+    background: white;
+    color:rgba(48, 56, 132, 1);
+}
+.login{
+    display: flex;
+    align-items: center;
+    padding:13px 0px 13px 10px;
+    border-left: 1px solid white;
+}
+.rodape{
+    height: 150px;
+    background-color: rgba(48, 56, 132, 1);
+    display:flex;
+}
+.redes_sociais{
+    border: 1px solid white;
+    margin-left: 10%;
+    flex: 40%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.info_geral{
+    border: 1px solid white;
+    margin-right: 10%;
+    flex: 40%;
+    display: block;
+    justify-items: center;
+    align-items: center;
+}
