@@ -1,0 +1,96 @@
+body{
+    background: #29345a;
+}
+main {
+    margin: 2% 5% 5% 5%;
+}
+.box {
+    margin-top: 18px;
+    display: flex;
+    gap: 1vw;
+    max-width: 95%;
+    width: 100%;
+    overflow-x: auto;
+    cursor: grab;
+    scroll-snap-type: x;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    border-radius: 15px; 
+}
+
+.carrossel{
+    aspect-ratio:(1 / 1);
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start; 
+    user-select: none;  
+}
+
+.carrossel img {
+    width: 350px; /* Define a largura da imagem como 200 pixels */
+    height: 200px; /* Define a altura da imagem como 200 pixels */
+    border-radius: 10px; 
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.pesquisa{
+    margin-bottom: 3%;
+	height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+#imagem-pesquisa{
+    text-align: right;
+    flex: 20%;
+}
+.barra-pesquisa{
+    flex: 60%;
+    margin-right: 20%;
+    display: inline-block;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid white;
+}
+#search1{
+    display: inline-flex;
+    width: 600px;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid pink;
+}
+#inputSearch{
+    display: inline-flex;
+    width: 600px;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 5px;
+}
+#submit_button{
+    display: inline-flex;
+    padding: 8px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+}
+section{
+	padding-left: 50px;
+	margin: auto;
+	padding-bottom: 50px;
+}
+h2{
+    font-weight: 350;
+    font-size: 22px;
+    color: white;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
