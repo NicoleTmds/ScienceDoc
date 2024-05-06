@@ -1,0 +1,1 @@
+O menu é padronizado. Copie o código do index.
