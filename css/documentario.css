@@ -56,7 +56,6 @@ main {
     align-items: center;
     text-align: center;
     justify-content: center;
-    border: 1px solid white;
 }
 #search1{
     display: inline-flex;
@@ -64,7 +63,6 @@ main {
     justify-content: center;
     padding: 8px;
     border-radius: 5px;
-    border: 1px solid pink;
 }
 #inputSearch{
     display: inline-flex;
@@ -75,12 +73,10 @@ main {
 }
 #submit_button{
     display: inline-flex;
-    padding: 8px;
     border-radius: 5px;
     align-items: center;
     justify-content: center;
     align-items: center;
-    border: 1px solid green;
 }
 section{
 	padding-left: 50px;
