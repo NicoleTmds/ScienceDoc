@@ -7,6 +7,7 @@
     <meta name="description" content="Serviço de streaming com conteúdo acadêmico">
     <meta name="keywords" content="documentário,estudos,acadêmico,streaming">
     <title>ScienceDoc</title>
+    <link rel="stylesheet" href="css/base_padrao.css">
     <link rel="stylesheet" type="text/css" href="css/cadastro.css">
 </head>
 <body>
@@ -38,25 +39,28 @@
 
 
 
-
-
-
-
 	<div id="realizar-cadastro">		
-
+        <form>
 			<h2>Realizar cadastro</h2>
 
 			<div id="login-center">
-				<h3>Endereço de e-mail <input type="text" placeholder="Insira seu e-mail" class="input-escuro"></h3>
+				<h3>Endereço de e-mail <input type="email" placeholder="Insira seu e-mail" class="input-escuro" required></h3>
+                
 
-				<h3>Senha<input type="password" placeholder="Crie uma nova senha"></h3>
+                <h3>Senha<input type="password" id="senha" name="senha" placeholder="Crie uma nova senha" required pattern="(?=.*[A-Z]).{6,}" title="A senha deve conter pelo menos 6 caracteres, e pelo menos uma letra maiúscula"></h3>
+                <div class="senhaCadastro">
+                    <input type="checkbox" id="mostrarSenha" onclick="document.getElementById('senha').type = this.checked ? 'text' : 'password'">
+                    <label for="mostrarSenha">Mostrar Senha</label>
+                </div>
 
-				<h3>Confirmar senha <input type="password" placeholder="Digite sua senha" class="input-escuro"></h3>
+                <h3>Confirmar senha <input type="password" id="confirmarSenha" name="confirmarSenha" required pattern="(?=.*[A-Z]).{6,}" title="A senha deve conter pelo menos 6 caracteres, e pelo menos uma letra maiúscula" placeholder="Insira sua senha"></h3>
+
 
 				<input type="submit" value="Cadastrar" id="botao_cadastro">   <!--Mudar id do botão-->
 			</div>
-		
-		
+
+		</form>
+
 	</div>
 
 
@@ -70,9 +74,9 @@
         <div class="redes_sociais">
             <h3>Redes Sociais</h3>
             <div class="img_rodape">
-                <img src="img/Instagram.png" width="35px">
-                <img src="img/telefone.png" width="33px">
-                <img src="img/facebook.png" width="35px"> 
+                <a href=""><img src="img/Instagram.png" width="35px"></a>
+                <a href=""><img src="img/telefone.png" width="35px"></a>
+                <a href=""><img src="img/facebook.png" width="35px"></a>
             </div>
         </div>
         <div class="info_geral">
@@ -81,11 +85,6 @@
             <a href="">Sobre nós</a>
         </div>
     </footer>
-
-
-
-
-
 
    </body>
 </html>

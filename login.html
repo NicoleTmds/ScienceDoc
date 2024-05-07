@@ -40,43 +40,35 @@
     <div id="container">
         <hr>
 
-        <div id="login-senha">
-            <h3>E-mail</h3>
-            <input type="E-mail" placeholder="Insira seu e-mail...">
-            <hr>
-            <h3>Senha</h3>
+    <form>
+        <div class="login-senha">
+            <div>
+                <label for="email">E-mail</label><br><br>
+                <input type="email" id="email" name="email" placeholder="Insira seu e-mail..." required>
+            </div><hr>
 
-            <input type="password" name="" placeholder="Insira sua senha...">
-            <hr>
-
-            <div id="div-checkbox">
-                <input type="checkbox" placeholder="Mostrar senha">
+            <div>
+                <label for="senha">Senha</label><br><br>
+                <input type="password" id="senha" name="senha" placeholder="Insira sua senha..."> <hr>
+                <input type="checkbox" id="mostrarSenha" onclick="document.getElementById('senha').type = this.checked ? 'text' : 'password'">
+                <label for="mostrarSenha">Mostrar Senha</label>
             </div>
 
-            <div id="h-checkbox">
-                <h4>Mostrar senha</h4>
-            </div>
         </div>
-
 
         <div id="botao-login">  
             <input type="submit" value="Fazer login">
         </div>
         <hr id="hr-botao">
 
+    </form>
 
         <div id="esqueci-senha">
                 <a href="">Esqueci a senha</a><br><br>
-                <a href="">Fazer cadastro</a><br><br><br><br>
+                <a href="cadastro.html">Fazer cadastro</a><br><br><br><br>
         </div>
 
     </div>
-
-
-
-
-
-
 
     <footer class="rodape">
         <div class="redes_sociais">

@@ -3,8 +3,6 @@ body{
 	color: #ffffff;
 }
 
-
-
 #container{
 	width: 600px;
 	height: 462px;
@@ -13,12 +11,24 @@ body{
 	margin-bottom: 100px;
 }
 
-#login-senha{
+.login-senha{
 	width: 500px;
 	margin: auto;
+	margin-bottom: 4%;
 }
 
-
+.login-senha label[for="email"]{
+	font-size: 20px;
+	font-weight: 550;
+}
+.login-senha label[for="senha"]{
+	font-size: 20px;
+	font-weight: 550;
+}
+.login-senha label[for="mostrarSenha"]{
+	font-size: 15px;
+	font-weight: 550;
+}
 
 hr{
 	margin-bottom: 30px;
@@ -40,7 +50,7 @@ input{
 
 
 
-input[type="E-mail"], input[type="password"]{
+input[type="email"], input[type="password"]{
 	width: 500px;
 
 }
