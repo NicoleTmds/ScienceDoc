@@ -1,3 +1,70 @@
+/*corpo do site(main)*/
+.fluxo_principal {
+    position: relative; /* Adiciona posição relativa ao elemento pai */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Define a imagem de fundo com transparência */
+    background-image: linear-gradient(rgba(14, 14, 51, 0.5), rgba(22, 19, 95, 0.5)), url('../img/fundo_azul.jpg');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    padding: 70px;
+}
+.frase_efeito{
+    margin-left: 5%;
+    flex: 45%;
+    display: block;
+    padding-bottom: 6%;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    font-size: 15px;
+    color:white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.slogan{
+    color: rgb(216, 203, 20);
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.frase_efeito h1{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 37px;
+    font-weight: 450;
+    font-style: italic;
+}
+#destaque_frase{
+    background: rgb(9, 3, 77);
+    color:  white;
+    font-weight: 350;
+    border-radius: 3px;
+    padding: 2px 10px 2px 10px;
+}
+#botao2{
+    text-decoration: none;
+    background: rgb(8, 3, 67);
+    padding: 15px 20px;
+    color: rgb(239, 223, 3);
+    border-radius: 7px;
+}
+#botao2:hover{
+    border: none;
+    background: white;
+    color:#303884;
+    border: 2px solid #303884;
+}
+.img_fundo{
+    text-align: center;
+    margin-right: 5%;
+    flex: 45%;
+    max-width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 /* Parte dos lançamentos*/
 
