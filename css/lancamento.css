@@ -5,6 +5,7 @@
 * {
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+    margin: 0;
 }
 body{
     margin:0;
@@ -17,6 +18,7 @@ body{
     justify-content: center;
     align-items: center;
     justify-content: space-between;
+    border:1px solid black;
     overflow: hidden;
 }
 .logo{
@@ -209,3 +211,60 @@ body{
     border-right: 1px solid white;
     padding: 5px 20px;
 }
+
+
+/* Parte dos lançamentos*/
+
+/* Estilizando o contêiner principal que envolve a lista de documentários */
+  .fluxo_principal {
+    box-sizing: border-box; /* Inclui a largura e a altura da borda e do preenchimento no cálculo do tamanho total */
+    display: block; /* Garante que o contêiner seja exibido como um bloco */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    flex-wrap: wrap; /* Permite que os elementos sejam ajustados automaticamente quando necessário */
+    padding-top: 100px; /* Adiciona espaço superior */
+  }
+  
+  /* Estilizando o contêiner da lista de documentários */
+  .documentary-list-container {
+    margin-left: 0px; /* Define a margem à esquerda como 0 */
+    padding: 0 20px; /* Adiciona preenchimento à esquerda e à direita */
+    width: calc(100% - 2rem); /* Define a largura do contêiner, descontando 20 pixels de cada lado */
+}
+
+/* Estilizando o envoltório da lista de documentários */
+.documentary-list-wrapper {
+    position: relative; /* Posiciona os elementos filhos relativamente a este envoltório */
+    overflow: hidden; /* Esconde qualquer conteúdo que possa extravasar do contêiner */
+}
+
+/* Estilizando a própria lista de documentários */
+.documentary-list {
+    display: flex; /* Torna os itens flexíveis */
+    align-items: center; /* Alinha os itens verticalmente */
+    height: 300px; /* Define uma altura fixa para a lista de documentários */
+    transform: translateX(0); /* Define a posição inicial como 0 */
+    transition: all 1s ease-in-out; /* Adiciona um efeito de transição suave */
+}
+
+/* Estilizando cada item da lista de documentários */
+.documentary-list-item {
+    margin-right: 30px; /* Adiciona espaço entre os itens */
+    position: relative; /* Posiciona os elementos filhos relativamente a este item */
+}
+
+/* Estilizando a imagem de cada item da lista de documentários */
+.documentary-list-item-img {
+    transition: all 1s ease-in-out; /* Adiciona um efeito de transição suave */
+    width: 270px; /* Define a largura da imagem */
+    height: 200px; /* Define a altura da imagem */
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço disponível */
+    border-radius: 20px; /* Arredonda as bordas da imagem */
+}
+  
+
+/*Mudar cor do titulo da lista*/
+  .documentary-list-title {
+    color:#ffff;
+  }
+  
