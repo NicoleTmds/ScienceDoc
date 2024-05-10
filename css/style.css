@@ -16,7 +16,6 @@ body{
     background: #303884;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
     overflow: hidden;
 }
 .logo{
@@ -26,33 +25,42 @@ body{
 }
 .menu{
     flex: 45%;
-    text-align: larger;
-    align-items: center;
     padding: 1.5vw;
     display: flex;
-    gap: 1.5vw;
+    justify-content: center;
+    align-items: center;
 }
 .menu a{
     color: white;
     text-decoration: none;
     font-size: 17px;
-    padding: 10px 16px;
+    padding: 12px;
+}
+.consultas{
+    padding: 12px 12px;
+    flex: 90%;
+    justify-content: space-between;
+}
+.consultas a{
+    margin-right: 30px;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+    gap: 1.5vw;
 }
 .menu a:hover{
     color:#576EA9;
     border-top:2px solid white
 }
 .inicio{
+    flex: 5%;
+    padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px
-    
 }
 .inicio a{
-    padding: 10px;
+    padding: 12px;
 }
-
 .acesso{
     align-items: center;
     display: flex;
