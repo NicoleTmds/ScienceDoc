@@ -51,22 +51,19 @@ main {
     flex: 20%;
 }
 .barra-pesquisa{
+    position: relative;
     flex: 60%;
     margin-right: 20%;
-    display: inline-block;
-    padding: 30px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
 }
-#search1{
-    display: inline-flex;
-    width: 600px;
-    justify-content: center;
-    padding: 8px;
-    border-radius: 5px;
+.barra-pesquisa i{
+    position: absolute;
+    right: 20%;
+    top: 27%;
+    transform: translate(-50%);
+    font-size: 20px;
 }
 #inputSearch{
+    font-style: italic;
     display: inline-flex;
     width: 600px;
     justify-content: center;

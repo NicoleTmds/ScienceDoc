@@ -10,7 +10,7 @@
     <title>ScienceDoc</title>
     <link rel="stylesheet" href="css/base_padrao.css">
     <link rel="stylesheet" href="css/documentario.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <nav class="navbar">
@@ -19,13 +19,19 @@
         </div>
         <div class="menu">
             <div class="inicio">
-                <img id= "image_home" src="img/casa_home.png" width="20px" height="20px">
-                <a href="index.html">Início</a>
+                <div id="img_inicio">
+                    <img id= "image_home" src="img/casa_home.png" width="20px" height="20px">
+                </div>
+                <div id="link_inicio">
+                    <a href="index.html">Início</a>
+                </div>
             </div>
-            <a href="#">Documentários</a>
-            <a href="lancamentos.html">Lançamentos</a>
-            <a href="#">Palestras</a>
-            <a href="#">Cursos</a>
+            <div class="consultas">
+                <a href="#">Documentários</a>
+                <a href="lancamentos.html">Lançamentos</a>
+                <a href="#">Palestras</a>
+                <a href="#">Cursos</a>
+            </div>
         </div>
         <div class="acesso">
             <a href="cadastro.html" id="botao">Cadastre-se</a>
@@ -36,7 +42,6 @@
         </div>
     </nav>
 
-<header>
     <main>          
         <div class="pesquisa">
             <div id="imagem-pesquisa">
@@ -47,9 +52,7 @@
                 <form>
                     <div id="search1">
                         <input type="text" id="inputSearch" placeholder="Faça sua busca...">
-                    </div>
-                    <div id="submit_button">
-                        <button type="submit"><img src="./img/lupa.png" width="30px"></button>
+                        <i class='bx bx-search-alt'></i>
                     </div>
                 </form>
             </div>
@@ -155,7 +158,6 @@
             </section>
         </div>
     </main>
-</header>
 
     <footer class="rodape">
         <div class="redes_sociais">
