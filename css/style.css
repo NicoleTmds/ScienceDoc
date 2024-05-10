@@ -12,7 +12,7 @@ body{
 }
 .navbar{
     display: flex;
-    height: 100px;
+    height: 100%;
     background: #303884;
     justify-content: center;
     align-items: center;
@@ -28,9 +28,9 @@ body{
     flex: 45%;
     text-align: larger;
     align-items: center;
-    padding: 20px;
+    padding: 1.5vw;
     display: flex;
-    gap: 1vw;
+    gap: 1.5vw;
 }
 .menu a{
     color: white;
@@ -160,7 +160,8 @@ body{
 
 /*Rodapé do site(footer)*/
 .rodape{
-    height: 150px;
+    width: 100%;
+    height: 8vw;
     background-color:#303884;
     display:flex;
 }

@@ -2,26 +2,25 @@ body{
 	background-color: #29345A;
 	color: #ffffff;
 }
-
-#container{
-	width: 600px;
-	height: 462px;
+.container{
+	width: 35vw;
 	margin: auto;
-	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-top: 8vw;
+	margin-bottom: 10vw;
 }
-
+.input_nome{
+	display: flex;
+}
+#primeiro_nome{
+	flex:55%;
+}
+#segundo_nome{
+	flex: 45%;
+}
 .login-senha{
 	width: 500px;
 	margin: auto;
 	margin-bottom: 4%;
-}
-
-.login-senha label[for="email"]{
-	font-size: 20px;
-	font-weight: 550;
-}
-.login-senha label[for="senha"]{
 	font-size: 20px;
 	font-weight: 550;
 }
@@ -35,9 +34,6 @@ hr{
 	font-size: 5px;
 	color: #ffffff;
 }
-
-
-
 
 input{
     border: none; /* remove a borda */
@@ -89,8 +85,6 @@ h4{
 }
 
 
-
-
 input[type="submit"]{
 	border: 1px solid #fff;
 	font-size: 18px;
@@ -108,13 +102,6 @@ input[type="submit"]{
 #hr-botao{
 	margin-top: 30px;
 }
-
-
-
-#esqueci-senha{
-	padding-bottom: 100px;
-}
-
 
 #esqueci-senha a{
 	color: #ffffff;

@@ -7,8 +7,8 @@
     <meta name="description" content="Serviço de streaming com conteúdo acadêmico">
     <meta name="keywords" content="documentário,estudos,acadêmico,streaming">
     <title>ScienceDoc</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" href="css/base_padrao.css">
+    <link rel="stylesheet" type="text/css" href="css/login_cadastro.css">
 </head>
 <body>
     <nav class="navbar">
@@ -34,41 +34,36 @@
         </div>
     </nav>
 
-
-
-
-    <div id="container">
+    <main class="container">
         <hr>
+        <form>
+            <div class="login-senha">
+                <div>
+                    <label for="email">E-mail</label><br><br>
+                    <input type="email" id="email" name="email" placeholder="Insira seu e-mail..." required>
+                </div><hr>
 
-    <form>
-        <div class="login-senha">
-            <div>
-                <label for="email">E-mail</label><br><br>
-                <input type="email" id="email" name="email" placeholder="Insira seu e-mail..." required>
-            </div><hr>
+                <div>
+                    <label for="senha">Senha</label><br><br>
+                    <input type="password" id="senha" name="senha" placeholder="Insira sua senha..."> <hr>
+                    <input type="checkbox" id="mostrarSenha" onclick="document.getElementById('senha').type = this.checked ? 'text' : 'password'">
+                    <label for="mostrarSenha">Mostrar Senha</label>
+                </div>
 
-            <div>
-                <label for="senha">Senha</label><br><br>
-                <input type="password" id="senha" name="senha" placeholder="Insira sua senha..."> <hr>
-                <input type="checkbox" id="mostrarSenha" onclick="document.getElementById('senha').type = this.checked ? 'text' : 'password'">
-                <label for="mostrarSenha">Mostrar Senha</label>
             </div>
 
-        </div>
+            <div id="botao-login">  
+                <input type="submit" value="Fazer login">
+            </div>
+            <hr id="hr-botao">
 
-        <div id="botao-login">  
-            <input type="submit" value="Fazer login">
-        </div>
-        <hr id="hr-botao">
-
-    </form>
+        </form>
 
         <div id="esqueci-senha">
                 <a href="">Esqueci a senha</a><br><br>
-                <a href="cadastro.html">Fazer cadastro</a><br><br><br><br>
+                <a href="cadastro.html">Fazer cadastro</a>
         </div>
-
-    </div>
+    </main>
 
     <footer class="rodape">
         <div class="redes_sociais">

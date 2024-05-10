@@ -7,14 +7,13 @@
     <meta name="description" content="Serviço de streaming com conteúdo acadêmico">
     <meta name="keywords" content="documentário,estudos,acadêmico,streaming">
     <title>ScienceDoc</title>
-    <link rel="stylesheet" href="css/base_padrao.css">
-    <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/login_cadastro.css">
 </head>
+
 <body>
-    
 
-
-	<nav class="navbar">
+    <nav class="navbar">
         <div class="logo">
             <img src="img/logo2.png" width="140px">
         </div>
@@ -29,7 +28,7 @@
             <a href="#">Cursos</a>
         </div>
         <div class="acesso">
-            <a href="#" id="botao">Cadastre-se</a>
+            <a href="cadastro.html" id="botao">Cadastre-se</a>
             <div class="login">
                 <img src="img/perfil.png" width="25px" height="20px">
             </div>
@@ -37,46 +36,50 @@
         </div>
     </nav>
 
-
-
-	<div id="realizar-cadastro">		
+    <main class="container">
+        <hr>
         <form>
-			<h2>Realizar cadastro</h2>
+            <div class="login-senha">
+                <div class="input_nome">
+                    <div id="primeiro_nome">
+                        <label for="nome">Nome</label><br><br>
+                        <input type="text" id="name" name="name" placeholder="Insira seu nome...">
+                    </div>
+                    <div id="segundo_nome">
+                        <label for="sobrenome">Sobrenome</label><br><br>
+                        <input type="text" id="sobrename" name="sobrename" placeholder="Insira seu sobrenome...">
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <label for="email">E-mail</label><br><br>
+                    <input type="email" id="email" name="email" placeholder="Insira seu e-mail..." required>
+                </div><hr>
 
-			<div id="login-center">
-				<h3>Endereço de e-mail <input type="email" placeholder="Insira seu e-mail" class="input-escuro" required></h3>
-                
-
-                <h3>Senha<input type="password" id="senha" name="senha" placeholder="Crie uma nova senha" required pattern="(?=.*[A-Z]).{6,}" title="A senha deve conter pelo menos 6 caracteres, e pelo menos uma letra maiúscula"></h3>
-                <div class="senhaCadastro">
+                <div>
+                    <label for="senha">Senha</label><br><br>
+                    <input type="password" id="senha" name="senha" placeholder="Crie uma noma senha..."> <hr>
                     <input type="checkbox" id="mostrarSenha" onclick="document.getElementById('senha').type = this.checked ? 'text' : 'password'">
                     <label for="mostrarSenha">Mostrar Senha</label>
                 </div>
 
-                <h3>Confirmar senha <input type="password" id="confirmarSenha" name="confirmarSenha" required pattern="(?=.*[A-Z]).{6,}" title="A senha deve conter pelo menos 6 caracteres, e pelo menos uma letra maiúscula" placeholder="Insira sua senha"></h3>
+            </div>
 
+            <div id="botao-login">  
+                <input type="submit" value="Cadastre-se">
+            </div>
+            <hr id="hr-botao">
 
-				<input type="submit" value="Cadastrar" id="botao_cadastro">   <!--Mudar id do botão-->
-			</div>
-
-		</form>
-
-	</div>
-
-
-
-
-
-
-
+        </form>
+    </main>
 
     <footer class="rodape">
         <div class="redes_sociais">
             <h3>Redes Sociais</h3>
             <div class="img_rodape">
-                <a href=""><img src="img/Instagram.png" width="35px"></a>
-                <a href=""><img src="img/telefone.png" width="35px"></a>
-                <a href=""><img src="img/facebook.png" width="35px"></a>
+                <img src="img/Instagram.png" width="35px">
+                <img src="img/telefone.png" width="33px">
+                <img src="img/facebook.png" width="35px"> 
             </div>
         </div>
         <div class="info_geral">
@@ -85,6 +88,5 @@
             <a href="">Sobre nós</a>
         </div>
     </footer>
-
-   </body>
+</body>
 </html>
