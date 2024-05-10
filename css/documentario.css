@@ -1,5 +1,7 @@
 body{
     background: #29345a;
+    background-image: linear-gradient(rgba(14, 14, 51, 0.5), rgba(3, 2, 13, 0.5)), url('../img/fundo_azul.jpg');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
 }
 main {
     margin: 2% 5% 5% 5%;
