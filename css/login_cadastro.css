@@ -1,12 +1,20 @@
 body{
-	background-color: #29345A;
-	color: #ffffff;
+    background: #29345a;
+    background-image: linear-gradient(rgba(18, 18, 98, 0.5), rgba(3, 2, 13, 0.5)), url('../img/aguaviva3.jpg');
+	background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento*/
 }
 .container{
+	color: white;
 	width: 35vw;
 	margin: auto;
 	margin-top: 8vw;
 	margin-bottom: 10vw;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, .2);
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+	border-radius: 10px;
+	padding: 30px 20px;
 }
 .input_nome{
 	display: flex;

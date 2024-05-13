@@ -8,12 +8,12 @@
 }
 body{
     margin:0;
-    background:#303884;
+    background: #242d7d;
 }
 .navbar{
     display: flex;
     height: 100%;
-    background: #303884;
+    background:  #242d7d;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -89,7 +89,7 @@ body{
 #botao:hover{
     border: none;
     background: white;
-    color:#303884;
+    color: #242d7d;
 }
 .login{
     display: flex;
@@ -97,6 +97,7 @@ body{
     padding:13px 0px 13px 10px;
     border-left: 1px solid white;
 }
+
 
 /*corpo do site(main)*/
 .fluxo_principal {
@@ -145,18 +146,43 @@ body{
     padding: 2px 10px 2px 10px;
 }
 #botao2{
+    color: rgb(216, 203, 20);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 270px;
+    height: 75px;
     text-decoration: none;
-    background: rgb(8, 3, 67);
-    padding: 15px 20px;
-    color: rgb(239, 223, 3);
-    border-radius: 7px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 400;
 }
-#botao2:hover{
-    border: none;
-    background: white;
-    color:#303884;
-    border: 2px solid #303884;
-}
+.card{
+    width: 270px;
+    height: 75px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+   }
+   
+.card2 {
+    width: 270px;
+    height: 75px;
+    background-color: #0e1439;
+    border-radius:20;
+    transition: all .2s;
+   }
+   
+.card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+.card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+   }
+
 .img_fundo{
     text-align: center;
     margin-right: 5%;
@@ -170,7 +196,7 @@ body{
 .rodape{
     width: 100%;
     height: 8vw;
-    background-color:#303884;
+    background-color: #242d7d;
     display:flex;
 }
 .redes_sociais{

@@ -1,0 +1,72 @@
+body{
+    background: rgb(6, 3, 44);
+}
+.corpo_form{
+    background-image: linear-gradient(rgba(15, 8, 65, 0.5), rgba(15, 12, 41, 0.5)), url('../img/fundo-azul1.jpg');
+    background-size: cover;
+    margin: 5% 10% 5% 10%;
+    background: rgb(6, 3, 44);
+    box-shadow: 1px 1px 20px 7px rgb(70, 169, 255);
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+input{
+    width: 630px;
+    padding: 12px;
+}
+#titulo{
+    margin: 0px 40px 0px 40px;
+    padding: 20px;
+    display: flex;
+    flex: 100%;
+    justify-content: center;
+}
+.input_nome{
+    margin: 10px 80px 0px 80px;
+    padding: 20px;
+    display: flex;
+    flex: 100%;
+    gap: 2vw;
+}
+.contact{
+    margin: 10px 80px 0px 80px;;
+    padding: 20px;
+    display: flex;
+    flex: 100%;
+    gap: 2vw;
+}
+.mensagem{
+    margin: 10px 80px 0px 80px;
+    padding: 20px;
+    flex: 100%;
+}
+#msg{
+    width: 99%;
+    padding: 80px;
+}
+.btn_enviar{
+    margin: 10px 80px 0px 80px;
+    padding: 20px;
+    display: flex;
+    flex: 100%;
+    justify-content: center;
+}
+#submit{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 17px;
+	background: transparent;
+	border: 2px solid white;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+	border-radius: 10px;
+    width: 150px;
+	padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#submit:hover{
+    background-image: linear-gradient(rgba(36, 144, 232, 0.5), rgba(15, 12, 41, 0.5));
+    box-shadow: 1px 1px 20px 7px rgb(70, 169, 255);
+}
