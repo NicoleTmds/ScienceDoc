@@ -8,12 +8,12 @@
 }
 body{
     margin:0;
-    background:#303884;
+    background: #242d7d;
 }
 .navbar{
     display: flex;
     height: 100%;
-    background: #303884;
+    background:  #242d7d;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -89,7 +89,7 @@ body{
 #botao:hover{
     border: none;
     background: white;
-    color:#303884;
+    color: #242d7d;
 }
 .login{
     display: flex;
@@ -102,7 +102,7 @@ body{
 .rodape{
     width: 100%;
     height: 8vw;
-    background-color:#303884;
+    background-color: #242d7d;
     display:flex;
 }
 .redes_sociais{
